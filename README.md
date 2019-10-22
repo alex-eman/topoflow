@@ -1,9 +1,9 @@
-## WIP
-Logstash plugin for network traffic data analysis using network topology and "flow". This is an open source and lightweight adaption of a research project. The full writeup for which can be found ![here](ergmarma.pdf).
-
 # TopoFlow
 ![Cover photo](pipeline.jpg)
 ---------------------------------------------------------------
+
+## WIP
+Logstash plugin for network traffic data analysis using network topology and "flow". This is an open source and lightweight adaption of a research project. The full writeup for which can be found [here](ergmarma.pdf).
 
 # Authors
 Alex Emanuelson
