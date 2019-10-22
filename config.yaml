@@ -1,0 +1,27 @@
+elastic_search:
+  start_date: 2018.04.30
+  end_date: 2018.05.02
+  save_path: (/absolute/path/)
+  search_type: ('byte' or 'dns')
+  query: (lucene query accepted by ElasticSearch)
+  host_list: 
+    - (localhost)
+    - (otherhost:443)
+ergm:
+  burnin: 2000000
+  max_iterations: 200
+  sample_size: 10000
+  interval: 4000
+  threshold: 6000
+  threads: 4
+  outfile: 'test.csv'
+arma:
+    data: (/absolute/path/)
+    plot: 'fit'
+    train_max_p: 7
+    train_max_q: 7
+    threshold_denom: 1.0
+    num_pred_days: 7
+    stationarity_report: True
+    model_p: 7
+    model_q: 1
